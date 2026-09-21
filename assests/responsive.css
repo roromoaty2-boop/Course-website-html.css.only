@@ -1,0 +1,315 @@
+@media (max-width: 1200px) {
+  .hero-header {
+    width: 70%;
+    margin: 250px auto 0;
+  }
+
+  .ser-intro {
+    margin: 70px auto 40px;
+    width: 70%;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .card {
+    margin-left: 0;
+  }
+
+  .travel-service {
+    padding: 50px;
+    gap: 40px;
+  }
+
+  .text-tr {
+    max-width: 50%;
+  }
+
+  .text-tr p {
+    width: 100%;
+    height: auto;
+  }
+
+  .pic-tr img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .logo {
+    margin: 0;
+    justify-content: center;
+  }
+
+  .logo img {
+    max-width: 160px;
+    height: auto;
+  }
+
+  .nav-lists {
+    width: 100%;
+  }
+
+  ul {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 0;
+  }
+
+  .nav-btn {
+    margin: 0;
+    gap: 10px;
+  }
+
+  .hero-section {
+    min-height: 600px;
+    height: auto;
+    padding: 100px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-header {
+    width: 100%;
+    margin: 0;
+  }
+
+  .hero-header h1 {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+
+  .hero-header p {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+
+  .hero-btn {
+    margin-top: 30px;
+  }
+
+  .Book2 {
+    width: 250px;
+  }
+
+  .ser-intro {
+    width: 85%;
+    margin: 60px auto 40px;
+  }
+
+  .ser-intro h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+
+  .ser-intro p {
+    line-height: 1.6;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 0 20px;
+  }
+
+  .card {
+    width: calc(50% - 15px);
+    height: auto;
+    min-height: 260px;
+    margin: 0;
+  }
+
+  .travel-service {
+    flex-direction: column;
+    padding: 50px 30px;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .text-tr {
+    max-width: 100%;
+  }
+
+  .text-tr p {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .tr-button {
+    align-items: center;
+  }
+
+  .pic-tr {
+    width: 100%;
+  }
+
+  .pic-tr img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Header */
+
+  header {
+    padding: 15px;
+  }
+
+  .logo img {
+    max-width: 130px;
+  }
+
+  ul {
+    gap: 12px 18px;
+  }
+
+  ul li a {
+    font-size: 14px;
+  }
+
+  .nav-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nav-btn button {
+    width: 120px;
+    height: 45px;
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  .hero-section {
+    min-height: 550px;
+    padding: 70px 20px;
+  }
+
+  .hero-header h1 {
+    font-size: 32px;
+  }
+
+  .hero-header p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .Book2 {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .ser-intro {
+    width: 90%;
+    margin: 50px auto 30px;
+  }
+
+  .ser-intro h2 {
+    font-size: 28px;
+  }
+
+  .ser-intro p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 350px;
+    min-height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .card img {
+    max-width: 70px;
+    height: auto;
+  }
+
+  .card h2 {
+    font-size: 22px;
+  }
+
+  .card p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .travel-service {
+    padding: 40px 20px;
+    margin-top: 30px;
+  }
+
+  .text-tr h2 {
+    font-size: 28px;
+  }
+
+  .text-tr p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .btn-trs {
+    width: 220px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 360px) {
+  .nav-lists ul {
+    gap: 10px;
+  }
+
+  .nav-lists ul li a {
+    font-size: 12px;
+  }
+
+  .nav-btn {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-btn button {
+    width: 200px;
+  }
+
+  .hero-header h1 {
+    font-size: 28px;
+  }
+
+  .hero-header p {
+    font-size: 13px;
+  }
+
+  .card {
+    padding: 18px;
+  }
+}
