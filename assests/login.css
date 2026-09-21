@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: inherit;
+    padding-bottom: 20px;
+}
+
+.nav-btn {
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 14px 10px 14px;
+    height: 50px;
+    width: 130px;
+    background:#1f4db8;
+    color:white;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logo {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    gap: 40px;
+}
+
+
+.hero-section {
+    padding-top: 30px;
+    background-image: url(./mountain.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+    text-align: center;
+    width: 576;
+    height: 198;
+    opacity: 1;
+    top: 301px;
+    left: 432px;
+    gap: 40px;
+    justify-content: center;
+}
+
+
+.hero-header {
+    text-align: center;
+    width: 576;
+    height: 198;
+    opacity: 1;
+    margin-top: 301px;
+    margin-left: 432px;
+    margin-bottom: 301px;
+    margin-right: 432px;
+    gap: 40px;
+    color: #fff;
+
+}
+
+
+.hero-btn{
+    margin-top:40px;
+    display:flex;
+    justify-content:center;
+}
+
+
+.Book2{
+    width:320px;
+    height:48px;
+    background:#1f4db8;
+    color:white;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+
+.nav-btn {
+    /* margin-top:40px; */
+    display:flex;
+    justify-content:center;
+    gap: 19px;
+}
+
+
+.nav-btn {
+    color: #fff;
+}
+
+.white {
+    color: #fff;
+}
+
+
+.blue {
+    color: #fff;
+}
+
+
+
+.ser-intro {
+    margin: 70px 432px 40px 432px;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+} 
+
+
+.card {
+    justify-content: center;
+    gap: 24px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 312px;
+    height: 246px;
+    opacity: 1;
+    gap: 16px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-width: 1px;
+    padding: 24px;
+    margin-left: 40px;
+}
+
+.card1 img {
+    margin-bottom: 5px;
+}
+
+
+.card1 h2 {
+    margin-bottom: 5px;
+}
+
+
+
+
+.travel-service{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px 80px;
+    background-color: #EEF3FD;
+    margin-top: 40px;
+}
+
+
+.pic-tr img{
+    padding-top: 60px;
+    margin-top: 30px;
+}
+
+
+.text-tr p {
+    width: 532px;
+    height: 240px;
+    opacity: 1;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+
+
+.text-tr{
+    max-width:500px;
+}
+
+
+.tr-button {
+    display: flex;
+    flex-direction: column;
+    align-items: last baseline;
+    margin-top: 20px;
+}
+
+
+
+.text-tr h2 {
+    margin-bottom: 15px;
+}
